@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="practice_05.css">
+</head>
+<body>
+    <form action="/action.php">
+     <!--<input type ="text" placeholder ="type something "> placeholder use bakground text ye box mai phele se kuch likha hota hai -->
+     
+     <input type ="text" placeholder =" enetr your username ">
+     <br> <br>
+
+     <input type ="password" placeholder =" enter your password ">
+     <br> <br>
+    <h3> Select your gender: </h3>
+
+     <label for="101">
+     <input type="radio" name="gender" value="male" Id ="101"> Male
+     </label>
+
+     <label for="102">
+     <input type="radio" name="gender" value="female" Id="102"> Female
+     </label>
+     <br> <br>
+     <h3> select your subjects: </h3>
+     <label> 
+        <input type="checkbox" name="subject" value="math">Math
+     </label>
+     <br> <br>
+
+     <label> 
+         <input type="checkbox" name="subject" value="phy">phy    
+     </label>
+     <br> <br>
+
+     <label >
+            <input type="checkbox" name="subject" value="chem">chem   
+     </label>
+      <br> <br>
+     <label >
+            <input type="checkbox" name="subject" value="dsa">dsa
+            
+     </label>
+     <br> <br>
+        <h3> select your city: </h3>
+     <select name = city>                            <!-- its is a dropdown menu .. its use for option like app kon se city se ho ..select your city -->
+        <option value ="delhi">Delhi</option>
+        <option value ="mumbai">Mumbai</option>
+        <option value ="kolkata">Kolkata</option>
+        <option value ="chennai">Chennai</option>
+     </select>
+     <br> <br>
+
+     <h3> Provide your feedback: </h3>
+
+     <textarea name="feedback" placeholder=" some feedback">feedback</textarea>
+     <br> <br>
+     <h3> submit </h3>
+     <input type="submit" value="Submit">
+     </form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+#one{
+    height:100px;
+    width: 100px;
+    color: rgb(13, 12, 13);
+    background-color:aqua;
+    border:03px solid black;
+    border-radius: 10px;
+    padding: 25px;/* short trick for padding all sides are equal */   
+    margin: 20px; /* short trick for margin all sides are equal */
+}
+#two{
+    height:100px;
+    width: 100px;
+    color: rgb(18, 41, 247);
+    background-color:aqua;
+    border:3px dashed black;
+    border-radius: 01px;
+    padding: 20px 20px 20px 20px; /* short trick for padding-top, padding-right, padding-bottom, padding-left */
+    margin:20px 20px 20px 20px; /* short trick for margin-top, margin-right, margin-bottom, margin-left */
+}
+#three{
+    height:100px;
+    width: 100px;
+    color: rgb(224, 11, 50);
+    background-color:aqua;
+    border:3px solid black;
+    border-radius:01px;
+    padding: 20px 20px 20px 20px;
+    margin:30px 30px 30px 30px;
+
+}

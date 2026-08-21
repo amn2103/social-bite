@@ -1,0 +1,44 @@
+*{
+    color: white ;
+    margin:0;
+    padding:0;
+}
+div{
+    height: 100px;
+}
+
+#navbar{
+    height: 60px;
+    
+    background-color: black;
+}
+
+
+#login{
+    font-size:25px;
+    color:#f08804;
+}
+a{
+    margin-right: 200px;
+
+}
+button{
+    background-color: #f08804;
+}
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    color: #e717b3;
+    display: inline-block;
+}
+.content{
+    height: 655px;
+
+}
+footer{
+    color:rgb(255, 251, 251);
+    background-color: black;
+    text-align:center;
+    
+}

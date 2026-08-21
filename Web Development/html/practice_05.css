@@ -1,0 +1,16 @@
+h3{
+    color: red;
+}
+body{
+    background-color: lightblue;
+}
+form{
+    background-color: white;
+    width: 400px;
+    height: 390px;
+    margin: auto;
+    padding: 20px;
+}
+text{
+    color: black;
+}

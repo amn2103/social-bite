@@ -1,0 +1,24 @@
+div{
+    height:100px;
+    width:100px;
+    color: rgb(0, 0, 0);
+    background-color: pink;
+    border-width: 50px;
+    border-style: solid ;
+    border-color: black;
+
+}
+h1{
+    height: 200px;
+    width: 200px;
+    color: rgb(244, 13, 13);
+    background-color: pink;
+    border-width: 10px;
+    border-style:dashed;
+    border-color: black;
+}
+button{
+   
+    color:blue;
+    background-color: lightgray;
+}
